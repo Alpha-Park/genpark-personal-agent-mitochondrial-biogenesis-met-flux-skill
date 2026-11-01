@@ -1,0 +1,25 @@
+{
+  "name": "genpark-personal-agent-mitochondrial-biogenesis-met-flux-skill",
+  "version": "1.0.0",
+  "description": "Models PGC-1alpha transcriptional induction, partitions CaMK vs AMPK pathways, and optimizes 80/20 polarized training for mitochondrial density.",
+  "tools": [
+    {
+      "name": "model_pgc1a_transcriptional_stimulus",
+      "description": "Models PGC-1alpha induction score, CaMK vs. AMPK pathway, and mitochondrial turnover.",
+      "parameters": {
+        "session_type": "string (optional, default 'zone2_endurance')",
+        "duration_minutes": "float (optional, default 45.0)",
+        "average_hr_bpm": "float (optional, default 135.0)",
+        "max_hr_bpm": "float (optional, default 185.0)"
+      }
+    },
+    {
+      "name": "optimize_weekly_mitochondrial_stimulus_balance",
+      "description": "Applies 80/20 polarized training model to balance mitochondrial volume vs cristae density.",
+      "parameters": {
+        "zone2_minutes_total": "float",
+        "hiit_minutes_total": "float"
+      }
+    }
+  ]
+}
